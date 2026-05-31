@@ -9,11 +9,11 @@ Making HTTP requests is an I/O-bound operation that can take a significant amoun
 `asyncio` allows us to execute I/O operations concurrently. While waiting for the response from one request, control can be returned to the event loop, allowing other tasks to be execute. As a result, our code becomes more efficient and overall execution time is reduced.
 
 ## How to execute ##
-To execute this code follow the next steps.
-1. Create your virtual enviroment (for example in my case with conda):
+To run this project follow these steps.
+1. Create your virtual enviroment (for example using conda):
 > `$ conda create -n "async_api_consumption_venv" python=3.14`
 
-2. Activate your virtual enviroment (in my case with conda):
+2. Activate your virtual enviroment (for example using conda):
 > `$ conda activate async_api_consumption_venv`
 
 3. Install the dependencies:
